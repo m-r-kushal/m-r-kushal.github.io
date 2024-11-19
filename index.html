@@ -1,40 +1,82 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html>
+<html lang="en" xmlns="http://www.w3.org/1999/html">
 <head>
-    <meta charset="UTF-8">
     <title>Title</title>
-    <style>
-        body{
-            margin: 0;
-            padding: 0;
-            font-family: Arial, Helvetica, sans-serif;
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
 
-            background-color: antiquewhite;
-        }
-
-
-
-
-    </style>
-
-
-
+    <!-- Bootstrap CSS -->
+    <link crossorigin="anonymous" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+          integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" rel="stylesheet">
 </head>
 <body>
-<h1>Hello World</h1>
+<nav class="navbar  navbar-expand-sm navbar-dark bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler d-lg-none"
+            data-target="#collapsibleNavId"
+            data-toggle="collapse" type="button">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="collapsibleNavId">
+        <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a aria-expanded="false" aria-haspopup="true" class="nav-link dropdown-toggle" data-toggle="dropdown" href="#"
+                   id="dropdownId">Dropdown</a>
+                <div aria-labelledby="dropdownId" class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action 1</a>
+                    <a class="dropdown-item" href="#">Action 2</a>
+                </div>
+            </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" placeholder="Search" type="text">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    </div>
+</nav>
 
-<p>
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab assumenda deleniti doloremque ducimus esse fuga hic id
-    numquam porro quas? Aspernatur beatae consequatur deserunt et facere facilis hic repellat, veniam!
-</p>
+<div class="container-fluid">
 
-<ul>
-    <li>adsa</li>
-    <li>asdasd</li>
-    <li>sad</li>
-    <li>asdd</li>
-    <li>adssad</li>
-</ul>
+    <div class="row mt-4">
+        <div class="col-md-3">
+            <div class="list-group">
+                <a href="#" class="list-group-item list-group-item-action active">Active item</a>
+                <a href="#" class="list-group-item list-group-item-action">Item</a>
+                <a href="#" class="list-group-item list-group-item-action disabled">Disabled item</a>
+            </div>
+        </div>
 
+        <div class="col-md-9">
+                <h2 class="card-title">Card title</h2>
+                <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque cum illo incidunt
+                    labore obcaecati possimus vero. Alias aperiam at illum, incidunt ipsam maxime, nihil perferendis
+                    porro quam quos rerum saepe.</p>
+
+        </div>
+
+
+    </div>
+
+</div>
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script crossorigin="anonymous"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </body>
 </html>
